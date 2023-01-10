@@ -16,6 +16,7 @@ const expenses = [
     date: new Date(2021, 2, 12),
   },
   {
+    
     id: "e3",
     title: "Car Insurance",
     amount: 294.67,
@@ -43,11 +44,11 @@ function App() {
             date={name.date}
           ></Expenseitem>
    
+
         </div>
       ))}
       
     </div>
   );
 }
-
 export default App;
